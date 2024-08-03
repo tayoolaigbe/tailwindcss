@@ -1,0 +1,19 @@
+{
+	"name": "tailwindcss",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tailwind -i ./input.css -o styles/style.css",
+		"watch": "tailwind -i ./input.css -o styles/style.css --watch"
+	},
+	"author": "Eyitayo Olaigbe",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/tayoolaigbe/tailwindcss/issues"
+	},
+	"homepage": "https://github.com/tayoolaigbe/tailwindcss#readme",
+	"devDependencies": {
+		"tailwindcss": "^3.4.7"
+	}
+}
